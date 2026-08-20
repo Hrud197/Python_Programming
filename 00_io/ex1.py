@@ -25,9 +25,11 @@ print(a, type(a))
 
 # map
 # map(함수, List 객체)
+
+# map
 a, b, c = map(int, input().split())
 print(a, b, c)
 
-# list() 형태로 변환
+# list
 a = list(map(int, input().split()))
 print(a, type(a))
